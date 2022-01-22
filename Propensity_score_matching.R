@@ -1,8 +1,8 @@
 library(MatchIt)
 #read the data
 library(readxl)
-setwd("folder_name")
-df <- read_excel("Input_PSM.xlsx") # file with all teh covariates and the treatment (0/1).
+setwd("folder_name")  # Enter the name of the folder.
+df <- read_excel("Input_PSM.xlsx") # File with all the covariates and the treatment (0/1).
 head(df)
 
 # No matching; constructing a pre-match matchit object
